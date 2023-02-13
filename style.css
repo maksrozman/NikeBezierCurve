@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html,body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+
+header{
+    background-color: #FFF9F4;
+}
+.navbar-brand img{
+    width: 291.11px;
+    height: 39.27px;
+}
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 80px;
+}
+
+h5{
+    color: #363958;
+}
+
+.nike{
+    color: #FA804C;
+}
+
+.infinity{
+    color: #363958;
+}
+
+.btn{
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+}
+
+.card img{
+   /* background-color: #F1F1F1;  */
+    border-radius: 10px;
+}
+.price{
+    color: #FA804C;
+}
+
+.title{
+    color: #363958;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.feature{
+    border-radius: 20px;
+}
+
+/*
+@media only screen and (max-width: 688px){
+    h1{
+        font-size: 60px;
+        line-height: 60px;
+    }
+    .title{
+        font-size: 36px;
+    }
+
+    .navbar-brand img{
+        width: 192.75px;
+        height: 26px;
+    }
+}
+*/
+
+
+
+/*#svg{
+	position: absolute;
+	height: auto;
+	width: 100%;
+	
+	
+}  */
+
+
+
+  #myCanvas{
+	position: relative;                     
+	width: 89%;
+	transform: rotate(1.1deg);       
+	margin-top: -89.3%;
+	margin-left: 12.8%;
+} 
+
+	
+	
+/*#NIKE-SVG{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background: red;
+} */
+
+/*#NIKE-SVG .SVG{
+	position: relative;
+	margin-left: -1.5%;
+	width: 103%;						!!!!!!
+	margin-top: -107.6%;
+	transform: rotate(0.3deg);
+}  */
+
+
+/*#JPG{
+	position: relative;
+	height: 100%;
+	width: 100%;
+	background: red;
+} */
+	
+#JPG{
+	
+	/*height: auto; */
+	position: relative;
+	background: re
+}
+
+/*#JPG .jpgslikica{
+	position: absolute;
+	width: 28%;								originalna verziija
+	transform: rotate(-34.5deg);
+	margin-top: -67.0%;
+	left: 41.8%;
+}  */
+
+#JPG .jpgslikica{
+	position: absolute;
+	width: 28%;
+	transform: rotate(-36deg);
+	margin-top: -67.0%;
+	left: 42.1%;
+}
+
+
+
+
+
+/*@media only screen and (max-width: 575px){
+    #JPG .jpgslikica{
+	position: relative;
+	margin-left: 42%;
+	margin-top: -127.6%;
+	width: 28%;
+	transform: rotate(-36.5deg);
+	margin-bottom: 127%;
+} 
+} */
+
+#NIKE-SVG{
+	position: relative;
+}
+
+#NIKE-SVG .SVG{
+	position: absolute;
+	margin-left: -1.3%;
+	width: 103%;									/* testiranje z absolute */
+	margin-top: -107.5%;
+	transform: rotate(-0.5deg);
+}
+
+
+
+@media only screen and (min-width: 1200px){
+   #NIKE-SVG .SVG{
+	position: absolute;
+	margin-left: -1.2%;
+	width: 103%;									
+	margin-top: -108.2%;
+	transform: rotate(-0.5deg);
+	}
+	
+	#myCanvas{
+	position: relative;                     
+	width: 91%;
+	transform: rotate(1.5deg);       
+	margin-top: -90.1%;
+	margin-left: 12%;
+	}
+}
+
+@media only screen and (min-width: 1400px){
+   #NIKE-SVG .SVG{
+	position: absolute;
+	margin-left: -1.3%;
+	width: 103%;								
+	margin-top: -107.2%;
+	transform: rotate(0deg);
+	}
+	
+	#myCanvas{
+	position: relative;                     
+	width: 89%;
+	transform: rotate(1.1deg);       
+	margin-top: -89.3%;
+	margin-left: 12.8%;
+	} 
+}
+
+
+
