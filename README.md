@@ -1,2 +1,1 @@
-# NikeBezierCurve
-Nike
+https://maksrozman.github.io/NikeBezierCurve/
